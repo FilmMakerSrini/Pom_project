@@ -14,8 +14,7 @@ public class LoginPage {
 	@Test
 	public void login()
 	{
-		driver = new ChromeDriver();
-		
+		driver = new ChromeDriver();	
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		
